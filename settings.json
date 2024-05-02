@@ -1,0 +1,106 @@
+{
+    "editor.fontSize": 18,
+    "git.autofetch": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "explorer.confirmDelete": false,
+    "jupyter.askForKernelRestart": false,
+    "remote.SSH.remotePlatform": {
+        "is2": "linux"
+    },
+    "json.schemas": [
+    
+
+        
+    
+       ],
+     //关于vim的配置文件
+    
+    "vim.commandLineModeKeyBindingsNonRecursive": [],
+    "vim.insertModeKeyBindings": [{
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }],
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "t"],
+            "commands": ["workbench.action.terminal.focus"]
+        },
+        {
+            "before": ["<leader>", "e"], 
+            "commands": ["workbench.action.focusActiveEditorGroup"]
+        },
+        {
+            "before": ["<leader>", "p"],
+            "after": ["v", "i", "w", "p", "g", "v", "y"]
+        },
+        {
+        "before": ["<C-n>"],
+        "commands": [":nohl"]
+        },
+        {
+        "before": ["K"],
+        "commands": ["lineBreakInsert"],
+        "silent": true
+        },
+        {
+            "before": ["t", "h"],
+            "commands": [":tabp"]
+        },
+        {
+            "before": ["t", "l"],
+            "commands": [":tabn"]
+        },
+        {
+            "before": ["<C-j>"],
+            "after": ["<C-d>"]
+        },
+        {
+            "before": ["<C-k>"],
+            "after": ["<C-u>"]
+        },
+        {
+            "before": ["<C-h>"],
+            "after": ["^"]
+        },
+        {
+            "before": ["<C-l>"],
+            "after": ["$"]
+        }
+    ],
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p",
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y"
+            ]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    },
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "vim.commandLineModeKeyBindings": [],
+    "terminal.integrated.defaultProfile.linux": "",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "security.allowedUNCHosts": [
+        "192.168.1.4"
+    ],
+    "git.confirmSync": false,
+    "Lingma.LocalStoragePath": "C:\\Users\\admin\\.lingma"
+}
