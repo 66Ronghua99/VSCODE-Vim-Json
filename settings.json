@@ -1,20 +1,4 @@
 {
-    "editor.fontSize": 18,
-    "git.autofetch": true,
-    "[python]": {
-        "editor.formatOnType": true
-    },
-    "explorer.confirmDelete": false,
-    "jupyter.askForKernelRestart": false,
-    "remote.SSH.remotePlatform": {
-        "is2": "linux"
-    },
-    "json.schemas": [
-    
-
-        
-    
-       ],
      //关于vim的配置文件
     
     "vim.commandLineModeKeyBindingsNonRecursive": [],
@@ -39,6 +23,30 @@
         {
             "before": ["<leader>", "p"],
             "after": ["v", "i", "w", "p", "g", "v", "y"]
+        },
+        {
+            "before": ["<leader>", "s", "\""],
+            "after": ["c", "i", "w", "\"", "<Esc>", "p"]
+        },
+        {
+            "before": ["<leader>", "d", "\""],
+            "after": ["c", "i", "\"", "<Esc>", "v", "l", "p"]
+        },
+        {
+            "before": ["<leader>", "s", "{"],
+            "after": ["c", "i", "w", "{", "<Esc>", "p"]
+        },
+        {
+            "before": ["<leader>", "d", "{"],
+            "after": ["c", "i", "{", "<Esc>", "v", "l", "p"]
+        },
+        {
+            "before": ["<leader>", "s", "["],
+            "after": ["c", "i", "w", "[", "<Esc>", "p"]
+        },
+        {
+            "before": ["<leader>", "d", "["],
+            "after": ["c", "i", "[", "<Esc>", "v", "l", "p"]
         },
         {
         "before": ["<C-n>"],
@@ -95,12 +103,5 @@
     "extensions.experimental.affinity": {
         "vscodevim.vim": 1
     },
-    "vim.commandLineModeKeyBindings": [],
-    "terminal.integrated.defaultProfile.linux": "",
-    "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "security.allowedUNCHosts": [
-        "192.168.1.4"
-    ],
-    "git.confirmSync": false,
-    "Lingma.LocalStoragePath": "C:\\Users\\admin\\.lingma"
+    "vim.commandLineModeKeyBindings": []
 }
