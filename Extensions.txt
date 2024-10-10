@@ -1,0 +1,32 @@
+Python
+Pylance
+Python Indent
+autoDocString
+
+Markdown All in One
+Markdown preview
+
+Latex
+Latex LanguageTool grammer/spell
+Latex Utilities
+Latex Workshop
+
+Remote-SSH
+Remote-SSH: Editing Configuration
+Remote Explorer
+
+Vim
+
+RinbowCSV
+
+WSL
+
+Vue-Official
+Vue VSCode Snippets
+Vue 3 Snippets
+Vetur
+
+Diff
+
+Jupyter
+
